@@ -1,0 +1,148 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+* {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background: linear-gradient(to right, rgb(194, 165, 193), rgb(136, 91, 135));
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px 10%;
+  margin: 30px;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100px;
+  align-items: center;
+  font-family: Montserrat,sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 30px;
+  color: black;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Montserrat,sans-serif;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: rgb(6, 6, 6);
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 30px;
+  transition: .5s;
+}
+
+.p {
+  
+  color: black;
+  padding: 10px 10%;
+  margin-top: 100px;
+  position: left;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  max-width: 600px;
+  font-family: Montserrat,sans-serif;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(245, 249, 128);
+}
+
+.btn-box {
+  width: 345px;
+  height: 50px;
+
+
+}
+
+.h1 {
+  color: rgb(156, 222, 140);
+  font-size: 60px;
+  font-weight: 600;
+  padding-left: 150px;
+  font-family: Montserrat,sans-serif;
+}
+
+.h2 {
+  color: rgb(61, 61, 230);
+  font-size: 40px;
+  font-weight: 600;
+  padding-left: 150px;
+  font-family: Montserrat,sans-serif;
+}
+
+.p2 {
+  font-size: 20px;
+  font-weight: 600;
+  padding-left: 150px;
+  font-family: Montserrat,sans-serif;
+}
+
+.social-icons {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 30px;
+  background-color: transparent;
+  position: relative;
+  padding-left: 150px;
+  letter-spacing: 50px;
+}
+
+.social-icons:hover {
+  color: white;
+  transition: .5s;
+}
+
+.p3 {
+  display: block;
+  height: 100px;
+  width: 100%;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 160px;
+  padding-right: 50px;
+  background: transparent;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-family: Montserrat,sans-serif;
+}
+
+#temp1 {
+  float: left;
+  width: 100%;
+}
+
+#temp2 {
+  float: right;
+  width: 100%;
+  text-align: center;
+}
+
+.home {
+  margin: 23px auto;
+}
+
+.container {
+  margin: 8px 3px;
+  padding: 8px 3px;
+}
+
+* {
+  box-sizing: border-box;
+}
